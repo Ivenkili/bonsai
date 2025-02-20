@@ -645,6 +645,87 @@ input:checked + .slider:before {
 .prc{
     color: #01b289;
 }
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .navbar {
+    padding: 10px 0;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .auth-buttons {
+    display: none;
+  }
+
+  .dropdown-menu {
+    top: calc(100% + 20px);
+  }
+
+  .pricing-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .pricing-card {
+    width: 100%;
+  }
+
+  .card {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .banner-section {
+    padding: 20px;
+  }
+
+  .banner-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .banner-heading {
+    font-size: 32px;
+  }
+
+  .banner-subheading {
+    font-size: 32px;
+  }
+
+  .faq-item {
+    padding: 20px 0;
+  }
+
+  .faq-question {
+    font-size: 16px;
+  }
+
+  .faq-answer {
+    font-size: 14px;
+  }
+
+  .footer-container {
+    gap: 20px;
+  }
+
+  .footer-column {
+    text-align: center;
+  }
+
+  .footer-column h3 {
+    font-size: 16px;
+  }
+
+  .footer-column ul li a {
+    font-size: 16px;
+  }
+  
+}
 
 /* .footer-column li{
     font-size: 30px;
